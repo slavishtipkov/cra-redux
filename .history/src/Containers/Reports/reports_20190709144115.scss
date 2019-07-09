@@ -1,0 +1,46 @@
+.reports-page {
+  .reports-page-header {
+    .generate-report-wrapper {
+      align-self: center;
+      text-align: center;
+
+      .generate-button {
+        margin-right: 25px;
+        height: 30px;
+        width: 135px;
+        background-color: #4986ba;
+        line-height: 30px;
+        cursor: pointer;
+      }
+    }
+    .page-header-content {
+      margin-bottom: 40px;
+      .recently-added-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+
+        .recently-added-heading {
+          display: flex;
+          justify-content: space-between;
+
+          .see-all {
+            color: #4986ba;
+            cursor: pointer;
+          }
+        }
+        .recently-added-boxes {
+          display: flex;
+          justify-content: space-between;
+
+          .recently-added-box {
+            height: 75px;
+            width: 240px;
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

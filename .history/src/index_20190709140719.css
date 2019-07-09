@@ -1,0 +1,8 @@
+@import-normalize;
+
+#root {
+  max-width: 1360px;
+  min-width: 960px;
+  margin: 0 auto;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,40 @@
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: stretch;
+
+  .side-bar {
+    width: 20%;
+  }
+
+  .page {
+    width: 80%;
+    background-color: #f3f5f7;
+
+    .page-header {
+      .page-header-nav {
+        background-color: #ffffff;
+        ul {
+          display: flex;
+          margin: 0;
+          padding: 0;
+
+          padding-top: 20px;
+
+          li {
+            display: block;
+          }
+        }
+      }
+      .page-header-content {
+        padding-left: 25px;
+      }
+    }
+
+    .page-content {
+      padding-left: 25px;
+    }
+  }
+}

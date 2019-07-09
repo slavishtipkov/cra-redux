@@ -1,0 +1,36 @@
+.reports-page {
+  .reports-page-header {
+    .generate-report-wrapper {
+      align-self: center;
+      text-align: center;
+
+      .generate-button {
+        margin-right: 25px;
+        height: 30px;
+        width: 135px;
+        background-color: #4986ba;
+        line-height: 30px;
+        cursor: pointer;
+      }
+    }
+    .page-header-content {
+      .recently-added-wrapper {
+        height: 100px;
+
+        .recently-added-heading {
+          display: flex;
+        }
+        .recently-added-boxes {
+          display: flex;
+          justify-content: space-between;
+
+          .recently-added-box {
+            height: 75px;
+            width: 240px;
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
