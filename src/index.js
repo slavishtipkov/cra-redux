@@ -8,7 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 import App from "./Components/App";
 import configureStore from "./Redux/configureStore";
 
-import "./index.css";
+import "./index.scss";
 
 const store = configureStore();
 

@@ -1,42 +1,23 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/element-colors.scss";
+
 .side-bar {
+  background-color: $dark-background;
   display: flex;
   flex-direction: column;
+  .nav {
+    flex: 1;
 
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #293244;
-
-  a {
-    color: #b6cfe3;
-  }
-  .heading {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-  }
-
-  .profile-section {
-    height: 90px;
-    margin-bottom: 20px;
-  }
-
-  .serach-bar {
-    padding-top: 20px;
-    margin-bottom: 50px;
-
-    input {
-      display: inline;
+    .nav-item {
+      display: flex;
+      line-height: 42pt;
+      color: $blue-gray;
     }
-  }
-
-  .main-links {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-
-    a {
-      height: 50px;
-      text-decoration: none;
+    .active {
+      background-color: $dark-background-hovered;
+    }
+    .Reports {
+      flex: 1;
     }
   }
 }

@@ -13,7 +13,7 @@ const NotFound = lazy(() => import("../Common/NotFound"));
 
 const App = ({ childProps }) => {
   return (
-    <div className="container-fluid">
+    <div className="app-flex-container">
       <SideBar />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>

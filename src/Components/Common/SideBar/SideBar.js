@@ -2,34 +2,21 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import SearchBox from "../SearchBox";
 
+import Nav from "../Navigation";
+import { sideBarNavItems } from "../Navigation/constants";
+
 import "./sideBar.scss";
 
 const SideBar = () => {
   const activeStyle = { color: "#ffffff" };
 
   return (
-    <nav className="side-bar">
-      <h5 className="heading">VARDE ONE</h5>
-      <div className="profile-section">
-        <NavLink to="/profile" activeStyle={activeStyle}>
-          Profile
-        </NavLink>
-      </div>
-      <div className="search-bar">
-        <SearchBox />
-      </div>
-      <div className="main-links">
-        <NavLink to="/dashboard" activeStyle={activeStyle}>
-          Dashboard
-        </NavLink>
-        <NavLink to="/reports" activeStyle={activeStyle} exact>
-          Reports
-        </NavLink>
-      </div>
-      <NavLink to="/logout" activeStyle={activeStyle}>
-        Logout
-      </NavLink>
-    </nav>
+    <div className="side-bar">
+      <div className="heading-section">VARDE ONE</div>
+      <div className="profile-section">PROFILE</div>
+      <div className="search-section">SEARCH</div>
+      <Nav items={sideBarNavItems} />
+    </div>
   );
 };
 

@@ -35,7 +35,7 @@ class Reports extends React.Component {
                   <div className="name">Report_name_21421412</div>
                   <div className="info">You reviewed this yesterday.</div>
                 </div>
-                <div className="recently-added-box">
+                <div className="recently-added-box-2">
                   <div className="name">Report_name_023030</div>
                   <div className="info">You reviewed this yesterday.</div>
                 </div>
